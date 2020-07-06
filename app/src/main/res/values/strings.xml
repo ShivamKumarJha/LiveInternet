@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Live Internet</string>
+    <string name="internet_available">Internet available</string>
+    <string name="internet_unavailable">Internet unavailable</string>
+</resources>
