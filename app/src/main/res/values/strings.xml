@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Live Internet</string>
+    <string name="cell_available">Cellular available</string>
+    <string name="cell_unavailable">Cellular unavailable</string>
+    <string name="wifi_available">WiFi available</string>
+    <string name="wifi_unavailable">WiFi unavailable</string>
+    <string name="eth_available">Ethernet available</string>
+    <string name="eth_unavailable">Ethernet unavailable</string>
     <string name="internet_available">Internet available</string>
     <string name="internet_unavailable">Internet unavailable</string>
 </resources>
