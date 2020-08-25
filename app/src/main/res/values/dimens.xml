@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="margin_view">10dp</dimen>
-    <dimen name="text_size_status">24sp</dimen>
-    <dimen name="text_size_regular">18sp</dimen>
+    <dimen name="text_size_status">32sp</dimen>
 </resources>

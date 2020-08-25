@@ -7,10 +7,9 @@
     tools:context=".view.MainActivity">
 
     <TextView
-        android:id="@+id/text_view_internet_status"
+        android:id="@+id/text_view_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_view"
         android:gravity="center"
         android:text="@string/app_name"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
@@ -19,44 +18,5 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/text_view_cell_status"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_view"
-        android:gravity="center"
-        android:text="@string/app_name"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
-        android:textSize="@dimen/text_size_regular"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_view_internet_status" />
-
-    <TextView
-        android:id="@+id/text_view_wifi_status"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_view"
-        android:gravity="center"
-        android:text="@string/app_name"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
-        android:textSize="@dimen/text_size_regular"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_view_cell_status" />
-
-    <TextView
-        android:id="@+id/text_view_eth_status"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_view"
-        android:gravity="center"
-        android:text="@string/app_name"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
-        android:textSize="@dimen/text_size_regular"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_view_wifi_status" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
